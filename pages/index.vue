@@ -2,7 +2,12 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">vercel-test</h1>
+      <h1 class="title">
+        vercel-test
+      </h1>
+      <nuxt-link to="/secret">
+        secret link
+      </nuxt-link>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
